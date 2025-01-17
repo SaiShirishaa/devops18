@@ -1,6 +1,6 @@
 resource "aws_launch_template" "web_server_as" {
     name = "myproject"
-    image_id           = "ami-0ddc798b3f1a5117e"
+    image_id           = "ami-0454e52560c7f5c55"
     instance_type = "t2.micro"
     key_name = "mustafakey-pair"
     
